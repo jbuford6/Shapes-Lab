@@ -12,25 +12,32 @@
 <body>
     <div class="container">
         <p class="font">Rectangle</p>
-        <input type="text" placeholder="Width">
-        <input type="text" placeholder="Height">
-        <button class="button">Insert</button>
+        <input type="text" placeholder="Width" id="rectangle-width">
+        <input type="text" placeholder="Height" id="rectangle-height">
+        <button class="rectangleBtn"id="rectangleCon" onclick= "makeRectangle()">Insert</button>
         <br>
         <p class="font">Square</p>
-        <input type="text" placeholder="Side Length">
-        <button class="button">Insert</button>
+        <input type="text" placeholder="Side Length" id="square-side">
+        <button class="button" onclick="makeSquare()">Insert</button>
         <br>
         <p class="font">Circle</p>
-        <input type="text" placeholder="Radius">
-        <button class="button">Insert</button>
+        <input type="text" placeholder="Radius" id= "circle-radius">
+        <button class="button" onclick = "makeCircle()">Insert</button>
         <br>
         <p class="font">Right Triangle</p>
         <input type="text" placeholder="Height">
         <button class="button">Insert</button>
     </div>
+    <br>
+        <p class="shape-name">Shape Name:</p>
+        <p class="width">Width:</p>
+        <p class="height">Height:</p>
+        <p class="Radius">Area:</p>
+        <p class="Perimeter">Perimeter:</p>
         <div class="field">
 
         </div>
+        <script src="script.js"></script>
 </body>
 
 </html>
