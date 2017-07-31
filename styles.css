@@ -23,15 +23,24 @@ body{
     transform: translateX(-100px) translateY(-700px);
     border:  solid grey;
     
+    
 }
 .rectangle {
     background-color: black;
+    position: absolute;
 }
 
 .square {
     background-color: purple;
+    position: absolute
 }
 .circle {
     background-color: seagreen;
     border-radius: 50%;
+    position: absolute
+}
+.triangle {
+    height: 0;
+    width: 0;
+    position: absolute
 }
